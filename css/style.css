@@ -249,45 +249,43 @@ header h1 {
 
 
 
-.form1{
-   
-    background-color: #7bc5f7;
-    margin-left: 300px;
-    margin-top: 200px;
-    margin-right: 200px;
 
-
-}
-
-
-#nombre{
-    width: 396px;
-    margin-left: 3px;
-}
-
-#mail{
-    width: 396px;
-    
-    margin-left: 28px;
-}
-
-#telefono{
-    width: 396px;
-}
-
-#color{
+  .form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .color1 {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  
+  
+  
+  .color{
     color: deeppink;
-    font-family: Arial Black;
-}
-
-.color1{
-    color: deeppink;
-    font-family: Arial Black;
-}
-
-.fondo2{
-    margin-top: 300px;
-}
+      font-family: Arial Black;
+  }
 
 /*-----faq------*/
 
@@ -374,30 +372,30 @@ header h1 {
 /*-----nosotros------*/
 
 .margen1{
-    margin-left: 450px;
-    margin-right: 450px;
+ 
     border: 50px solid black;
     color: deeppink;
     font-family: Arial Black;
     background-color: #e5eef5;
+    position: relative;
+   
 }
 
 
 
 .margen2{
     color: deeppink;
-    margin-left: 500px;
     border: 30px solid black;
-    position: relative;
+   text-align: center;
     background-color: #e5eef5;
-   
+    
+    
 }
 
 .margen3{
-   width: 880px;
-   position: relative;
-   right: 23px;
+   width: 100%;
 }
+
 
 
 .fondoa{
