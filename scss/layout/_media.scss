@@ -1,66 +1,87 @@
 @media screen and (max-width: 420px) {
 
 
-    /*todos*/
+    .form-register {
+        width: 200px;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: sans-serif;
+        color: white;
+        box-shadow: 7px 13px 37px #000; }
+
     
-        .menu{
     
-      padding: 14px 16px;
-      font-size: 17px;
-      display: block;
-    }
+      
+  /*todos*/
+  .menu {
+    padding: 14px 16px;
+    font-size: 17px;
+    display: block; }
+  .menu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    right: 17px;
+    margin-bottom: 10px; }
     
-    .menu1{
-            
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        position: relative;
-        right: 17px;
-        margin-bottom: 10px;
-    }
-    
-    /*faq*/
-    
-    .grilla{
+   
+    /*index*/
+
+    .container {
+  
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: auto;
-    
-    }
-    
-    .margen{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-    
-    .men{
-        margin-left: 1px;
-        margin-right: 1px;
-    }
-    
-    /*catalogo*/
-    
-    .contenedorr{
-        width: 100%;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-template-rows: auto; 
         justify-content: center;
-    
-    }
-    
+      }
+  
+      section{
+        div {
+            center{
+                img{
+                    width: 80%;}
+                }
+            }
+        }
+       
+      section{
+        div{
+            div{
+                img{
+                    width: 110%;}
+                }
+            }
+        }   
+  
+  
+    /*faq*/
+    .grilla {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto; }
+    .margen {
+      margin-left: 40px;
+      margin-right: 40px; }
+    .men {
+      margin-left: 1px;
+      margin-right: 1px; }
+    /*catalogo*/
+    .contenedorr {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      justify-content: center; }
     /*redes*/
-    
-    .fondo1{
-        grid-column-gap: 10px;
-    }
-    
-    }
+    .fondo1 {
+      grid-column-gap: 10px; } }
+  
     
     @media screen and (min-width: 421px) and (max-width: 1023px) {
-    
-          
           .menu1{
                   
               display: flex;
@@ -70,14 +91,10 @@
               right: 17px;
               margin-bottom: 10px;
           }
-    
-    
         .margen{
             margin-left: 80px;
             margin-right: 80px;
         }
-    
-            
     
     .levantar {
         background-color: rgb(89, 87, 94);
@@ -90,6 +107,14 @@
         
         }
     
+        .container {
+  
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto; 
+            justify-content: center;
+           
+          }
     
     }
     
@@ -100,21 +125,17 @@
     .menu{
         
         text-align: center;
-        color: rgb(238, 14, 182);
+        color: #ee0eb6;
         font-family: sans-serif;
-        background-color: rgb(85, 248, 248);
         border: #080808 10px;
     }
     
-    
     .menu1{
-            
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         position: relative;
         right: 17px;
-     
     }
     
     /*faq*/
@@ -127,42 +148,28 @@
         grid-row-gap: 15px;
     
     }
-        
-    
     .margen{
         margin-right: 160px;
         margin-left: 150px;
     }
-    
-    
-    .men{
-        
+    .men{   
         text-align: center;
         color: rgb(238, 14, 182);
         font-family: sans-serif;
         background-color:#eee2d1;
         margin-left: 1px;
         margin-right: 50px;
-        margin-top: 60px;
-        
+        margin-top: 60px;      
     }
-    
     /*catalogo*/
-    
-    
     .contenedorr{
         width: 100%;
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto;
-        justify-content: center;
-        
-    }
-    
-    
-    /*redes*/
-    
-    
+        justify-content: center;   
+    } 
+    /*redes*/ 
     .fondo1{
         background-color: #080808;
         margin-top: 200px;
@@ -173,12 +180,14 @@
         justify-content: center;
         text-align: center;
         font-weight: bold;
-       
-    
     }
-    
-    
-    
+    .container {
+  
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto; 
+        justify-content: center;
+      }  
     }
     
     

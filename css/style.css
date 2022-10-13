@@ -330,6 +330,16 @@ h2 {
   border-color: #b63535; }
 
 @media screen and (max-width: 420px) {
+  .form-register {
+    width: 200px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000; }
   /*todos*/
   .menu {
     padding: 14px 16px;
@@ -342,6 +352,16 @@ h2 {
     position: relative;
     right: 17px;
     margin-bottom: 10px; }
+  /*index*/
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center; }
+  section div center img {
+    width: 80%; }
+  section div div img {
+    width: 110%; }
   /*faq*/
   .grilla {
     display: grid;
@@ -380,7 +400,12 @@ h2 {
   .grilla {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto; } }
+    grid-template-rows: auto; }
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center; } }
 
 @media screen and (min-width: 1024px) {
   /*todos*/
@@ -388,7 +413,6 @@ h2 {
     text-align: center;
     color: #ee0eb6;
     font-family: sans-serif;
-    background-color: #55f8f8;
     border: #080808 10px; }
   .menu1 {
     display: flex;
@@ -431,4 +455,9 @@ h2 {
     grid-column-gap: 30px;
     justify-content: center;
     text-align: center;
-    font-weight: bold; } }
+    font-weight: bold; }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center; } }
