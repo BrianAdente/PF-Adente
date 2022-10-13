@@ -1,0 +1,22 @@
+section{
+    h1{
+        margin-left: 46.5em;
+        color: rgb(216, 17, 110);
+        font-family: sans-serif;
+    }  
+
+    nav{
+        ul{ list-style: none;
+            li{ display: list-item;
+                text-align: -webkit-match-parent;
+                a{
+                    font-weight: bold;
+                    font-size: 0.5cm;
+                    text-decoration: none;
+                    color:#080808;
+                }
+            }
+        }
+    }
+}
+

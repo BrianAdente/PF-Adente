@@ -1,0 +1,185 @@
+@media screen and (max-width: 420px) {
+
+
+    /*todos*/
+    
+        .menu{
+    
+      padding: 14px 16px;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .menu1{
+            
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        right: 17px;
+        margin-bottom: 10px;
+    }
+    
+    /*faq*/
+    
+    .grilla{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    
+    }
+    
+    .margen{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .men{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    
+    /*catalogo*/
+    
+    .contenedorr{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-content: center;
+    
+    }
+    
+    /*redes*/
+    
+    .fondo1{
+        grid-column-gap: 10px;
+    }
+    
+    }
+    
+    @media screen and (min-width: 421px) and (max-width: 1023px) {
+    
+          
+          .menu1{
+                  
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              position: relative;
+              right: 17px;
+              margin-bottom: 10px;
+          }
+    
+    
+        .margen{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+    
+            
+    
+    .levantar {
+        background-color: rgb(89, 87, 94);
+    }
+    
+        .grilla{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+        
+        }
+    
+    
+    }
+    
+    @media screen and (min-width: 1024px) {
+         
+       /*todos*/ 
+        
+    .menu{
+        
+        text-align: center;
+        color: rgb(238, 14, 182);
+        font-family: sans-serif;
+        background-color: rgb(85, 248, 248);
+        border: #080808 10px;
+    }
+    
+    
+    .menu1{
+            
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        right: 17px;
+     
+    }
+    
+    /*faq*/
+    
+    .grilla{
+        display: grid;
+        grid-template-columns:  650px 650px;
+        grid-template-rows: 200px 200px;
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+    
+    }
+        
+    
+    .margen{
+        margin-right: 160px;
+        margin-left: 150px;
+    }
+    
+    
+    .men{
+        
+        text-align: center;
+        color: rgb(238, 14, 182);
+        font-family: sans-serif;
+        background-color:#eee2d1;
+        margin-left: 1px;
+        margin-right: 50px;
+        margin-top: 60px;
+        
+    }
+    
+    /*catalogo*/
+    
+    
+    .contenedorr{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        
+    }
+    
+    
+    /*redes*/
+    
+    
+    .fondo1{
+        background-color: #080808;
+        margin-top: 200px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap: 30px;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+       
+    
+    }
+    
+    
+    
+    }
+    
+    
+    

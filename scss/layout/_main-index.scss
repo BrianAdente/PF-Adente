@@ -1,0 +1,138 @@
+.fondom{
+    background-image: url("../assets/img/newzapa.png");
+    background-color: #44aff7;
+}
+
+.titulos{
+    margin-right: 1020px;
+    
+background-color: #e5eef5;
+}
+
+
+.menucolor{
+            ul{
+                a:hover{
+                        color:#f78644;
+                        background-color: rgb(204, 0, 255);
+        } 
+    }
+}  
+
+
+.imag{
+    position: relative;
+    left: 65em;
+   
+}
+
+.menu1{
+        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    right: 17px;
+ 
+}
+
+.levantar{
+ 
+    background-color: rgb(89, 87, 94);
+}
+
+
+
+.menu{
+    
+    text-align: center;
+    color: rgb(238, 14, 182);
+    font-family: sans-serif;
+    background-color: rgb(85, 248, 248);
+    
+}
+
+h2{
+    text-align: center;
+   }
+
+   
+
+
+
+
+.menu{
+    
+    text-align: center;
+    color: rgb(238, 14, 182);
+    font-family: sans-serif;
+    background-color: rgb(85, 248, 248);
+    
+}
+
+
+.direccion1{
+    position: relative;
+    left: 350px;
+}
+.direccion2{
+    position: relative;
+   left: 250px;
+}
+
+.menus{
+    font-size: 1.70cm;
+}
+
+.menus1{
+    font-size: 1.24cm;
+}
+
+.contenedor{
+    height: 693px;
+    width: 1180px;
+}
+
+.container{
+    margin-left: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mover{
+    position: relative;
+    bottom: 120px;
+}
+
+.escala:hover{
+    padding: 50px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.escala1{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #F1C40F;
+  }
+  .escala1:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  }
+
+
+  .redes{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    background-color: #070707;
+  }
+  .redes:hover{
+    border-style: solid;
+    border-color: #2929cc;
+    border-color: rgb(182, 53, 53);}
+ 
+
+
+
+
