@@ -44,12 +44,11 @@ background-color: #e5eef5;
 
 
 .menu{
-    
     text-align: center;
-    color: rgb(238, 14, 182);
+    color: #ee0eb6;
     font-family: sans-serif;
-    background-color: rgb(85, 248, 248);
-    
+     background-color: #55f8f8; 
+    list-style:none
 }
 
 h2{
@@ -73,11 +72,11 @@ h2{
 
 .direccion1{
     position: relative;
-    left: 350px;
+    
 }
 .direccion2{
     position: relative;
-   left: 250px;
+   
 }
 
 .menus{
@@ -88,22 +87,19 @@ h2{
     font-size: 1.24cm;
 }
 
-.contenedor{
-    height: 693px;
-    width: 1180px;
-}
 
-.container{
-    margin-left: 6em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+.container {
+  
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; 
+    justify-content: center;
+   
+  }
 
-.mover{
-    position: relative;
-    bottom: 120px;
-}
+.escala{
+    margin: 40px;
+  }
 
 .escala:hover{
     padding: 50px;
@@ -114,7 +110,7 @@ h2{
 .escala1{
     -webkit-transition: 1s linear;
     transition: 1s linear;
-    background-color: #F1C40F;
+   
   }
   .escala1:hover{
     -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
