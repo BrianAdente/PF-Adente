@@ -106,7 +106,7 @@ section nav ul {
   font-size: 18px;
   color: white; }
 
-.color {
+.color, .men {
   color: deeppink;
   font-family: sans-serif; }
 
@@ -129,8 +129,6 @@ section nav ul {
 
 .men {
   text-align: center;
-  color: #ee0eb6;
-  font-family: sans-serif;
   background-color: #eee2d1;
   margin-left: 1px;
   margin-right: 50px;
@@ -210,11 +208,11 @@ section nav ul {
   margin-top: 60px; }
 
 .ancho {
-  width: 100%;
   display: grid;
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  width: 100%;
   font-size: 30px; }
 
 .centrar {
@@ -241,7 +239,6 @@ section nav ul {
   background-color: #44aff7; }
 
 .titulos {
-
   background-color: #e5eef5; }
 
 .menucolor ul a:hover {
@@ -272,9 +269,11 @@ section nav ul {
 h2 {
   text-align: center; }
 
+.color-1, .menu {
+  color: #ee0eb6; }
+
 .menu {
   text-align: center;
-  color: #ee0eb6;
   font-family: sans-serif;
   background-color: #55f8f8; }
 

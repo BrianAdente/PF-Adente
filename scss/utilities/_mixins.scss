@@ -1,0 +1,15 @@
+@mixin propiedades-grid ($posicion,$alineacion,$alto,$tamanio,$px) {
+    
+    display: grid;
+    justify-content:$posicion;
+    text-align:$alineacion;
+    font-weight:$alto;
+    width:$tamanio;
+    font-size:$px;
+}
+
+@mixin margen-1{
+
+    width: 100%;
+}
+

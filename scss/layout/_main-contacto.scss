@@ -22,7 +22,7 @@
   
   .color1 {
     width: 100%;
-    background: #24303c;
+    background: $background-1;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
@@ -66,10 +66,8 @@
 
 
 .men{
-    
+    @extend .color;
     text-align: center;
-    color: rgb(238, 14, 182);
-    font-family: sans-serif;
     background-color:#eee2d1;
     margin-left: 1px;
     margin-right: 50px;

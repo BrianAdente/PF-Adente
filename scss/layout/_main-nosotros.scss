@@ -13,6 +13,7 @@
 
 
 .margen2{
+    
     color: deeppink;
     border: 30px solid black;
    text-align: center;
@@ -22,11 +23,11 @@
 }
 
 .margen3{
-   width: 100%;
+    @include margen-1;
 }
 
 
 
 .fondoa{
-    background-color: #4C9ED9;
+    background-color: $background-nosotros;
 }
